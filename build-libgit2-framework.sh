@@ -119,10 +119,10 @@ function build_openssl() {
     setup_variables $1 install-openssl
 
     # It is better to remove and redownload the source since building make the source code directory dirty!
-    rm -rf openssl-3.4.0
-    test -f openssl-3.4.0.tar.gz || wget -q https://www.openssl.org/source/openssl-3.4.0.tar.gz
-    tar xzf openssl-3.4.0.tar.gz
-    cd openssl-3.4.0
+    rm -rf openssl-3.5.9
+    test -f openssl-3.5.9.tar.gz || wget -q https://www.openssl.org/source/openssl-3.5.9.tar.gz
+    tar xzf openssl-3.5.9.tar.gz
+    cd openssl-3.5.9
 
     case $PLATFORM in
         "iphoneos")

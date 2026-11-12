@@ -37,7 +37,7 @@ If you want to use `static-libgit2` in another package (say, to expose some cool
 | Library | Version |
 | ------- | ------- |
 | libgit2 | 1.9.7   | https://github.com/libgit2/libgit2/	
-| openssl | 3.4.0   | https://github.com/openssl/openssl/
+| openssl | 3.5.9   | https://github.com/openssl/openssl/
 | libssh2 | 1.11.1  | https://github.com/libssh2/libssh2/
 
 Adjust build-libgit2-framework.sh to use different versions of those libs, find most current versions on GitHub using the links above.
